@@ -1,0 +1,227 @@
+/* Estilos para pantallas grandes */
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .contenedor {
+        width: 95%;
+    }
+}
+
+
+
+body {
+    background-color:rgb(196, 228, 240);
+}
+
+h1 {
+    font-size: 55px;
+    color: #3c97ad;
+    text-align: center;
+}
+
+
+.informacion {
+    font-size: 25px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px grey;
+    justify-content: space-around;
+
+}
+
+.parrafo {
+    font-size: 45px;
+    color: rgb(38, 125, 145);
+}
+
+.beneficios {
+    font-size: 30px;
+    color: #275f6d;
+    margin:  50px;
+}
+/* seccion de imagenes*/
+.musculo1 {
+    float: left;
+    margin:  50px;
+    border-radius: 25px;
+    height: 300px;
+    width: 500px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1); 
+
+}
+
+.mujer50 {
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    height: 300px;
+    width: 500px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.body2 {
+    float: right;
+    margin:  50px;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    mask-image: linear-gradient(white 97%, transparent); 
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.collonturas1 {
+    float: center;
+    margin: 50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.adn2 {    
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.cerebro1{
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.immune {
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.women1 {
+    float: auto;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.cerebro2{
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.cardiovascular {
+    float: right;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+    width: 700px;
+}
+
+.mujer60{
+    float: center;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.fuerza {
+    float: right;
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+.adn1{
+    margin:  50px;
+    border-radius: 25px;
+    mask-image: linear-gradient(white 97%, transparent);
+    transition:  0.5s ease;
+    transform: scale(1.1);
+}
+
+/*fin de imagenes*/
+
+
+/*inici del footter*/
+
+
+.titulo-seccion {
+    font-size: 40px;
+    color: #275f6d;
+    margin:  50px;
+    transition:  0.5s ease;
+}
+
+.aplicacion {
+    font-size: 30px;
+    color: black;
+    margin:  50px;
+    transition:  0.3s ease;
+
+}
+
+.personas{
+    font-size: 30px;
+    color: black;
+    margin:  50px;
+    transition:  0.3s ease;
+
+}
+
+.afecta{
+    font-size: 30px;
+    color: black;
+    margin:  50px;
+    transition:  0.3s ease;
+
+}
+
+/*footer*/
+
+.venta {
+    font-size: 28px;
+    color: #275f6d;
+    float: left;
+}
+
+.derechos{
+    float: right;
+    font-size: 18px;
+}
